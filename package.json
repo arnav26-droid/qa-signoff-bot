@@ -1,0 +1,15 @@
+{
+  "name": "qa-signoff-bot",
+  "version": "1.0.0",
+  "description": "Slack bot: shared-branch locking (/branch, /qa-status) + structured QA signoffs (/qa-signoff)",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^4.7.3",
+    "dotenv": "^16.4.5"
+  }
+}
